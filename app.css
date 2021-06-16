@@ -15,11 +15,11 @@ body {
 }
 
 #main-navbar .navbar-brand {
-  color: rgb(252, 65, 131);
+  color: rgb(223, 46, 108);
 }
 
 #main-navbar .nav-link:hover {
-  color: rgb(252, 65, 131);
+  color: rgb(223, 46, 108);
 }
 
 h2 {
@@ -39,7 +39,27 @@ h2 {
   }
 }
 
+@media (max-width: 915px) {
+  h2 {
+    font-size: 2rem;
+  }
+  #main-navbar .navbar-brand,
+  #main-navbar .nav-link {
+    font-size: 1.4em;
+  }
+}
+
+section {
+  color: rgb(223, 46, 108);
+}
+
+@media (max-width: 768px) {
+  .paragraphs img {
+    display: none;
+  }
+}
+
 #headingGroup span {
-  color: rgb(252, 65, 131);
+  color: rgb(223, 46, 108);
   font-weight: 500;
 }
