@@ -27,6 +27,18 @@ h2 {
   font-size: 4rem;
 }
 
+h3 {
+  font-weight: 200;
+  font-size: 2.25rem;
+}
+
+p {
+  color: rgb(237, 125, 164);
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
 @media (max-width: 1350px) {
   h2 {
     font-size: 3rem;
@@ -51,12 +63,6 @@ h2 {
 
 section {
   color: rgb(223, 46, 108);
-}
-
-@media (max-width: 768px) {
-  .paragraphs img {
-    display: none;
-  }
 }
 
 #headingGroup span {
