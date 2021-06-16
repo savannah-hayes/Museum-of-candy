@@ -4,19 +4,29 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-.navbar {
-  margin: 0;
-}
-
-.navbar .navbar-brand {
-  color: rgb(252, 65, 131);
-}
-
-.navbar {
+#main-navbar .navbar-brand,
+#main-navbar .navbar-link {
   font-size: 1.5em;
   font-weight: 200;
 }
 
-.navbar:hover {
+#main-navbar .nav-link {
+  color: white;
+}
+
+#main-navbar .navbar-brand {
   color: rgb(252, 65, 131);
+}
+
+#main-navbar .nav-link:hover {
+  color: rgb(252, 65, 131);
+}
+
+h2 {
+  font-weight: 200;
+}
+
+#headingGroup span {
+  color: rgb(252, 65, 131);
+  font-weight: 500;
 }

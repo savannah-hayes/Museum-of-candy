@@ -18,8 +18,11 @@
     <title>Museum of Candy</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+    <main>
+      <nav
+        id="main-navbar"
+        class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+      >
         <a class="navbar-brand" href="#">Candy</a>
         <button
           class="navbar-toggler"
@@ -44,10 +47,27 @@
           </ul>
         </div>
       </nav>
-      <div class="row">
-        <div class="col"></div>
-      </div>
-    </div>
+
+      <section class="container-fluid px-0">
+        <div class="row align-items-center">
+          <div
+            id="headingGroup"
+            class="col-lg-6 text-center text-white d-none d-lg-block"
+          >
+            <h2>Museum<span>/</span>of<span>/</span>candy</h2>
+            <h2>Museum<span>/</span>of<span>/</span>candy</h2>
+            <h2>Museum<span>/</span>of<span>/</span>candy</h2>
+            <h2>Museum<span>/</span>of<span>/</span>candy</h2>
+            <h2>Museum<span>/</span>of<span>/</span>candy</h2>
+            <h2>Museum<span>/</span>of<span>/</span>candy</h2>
+            <h2>Museum<span>/</span>of<span>/</span>candy</h2>
+          </div>
+          <div class="col-lg-6">
+            <img src="./images/cup.png" alt="six donuts" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
