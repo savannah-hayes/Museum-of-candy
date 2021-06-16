@@ -4,21 +4,21 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-#main-navbar .navbar-brand,
-#main-navbar .nav-link {
+#mainNavbar .navbar-brand,
+#mainNavbar .nav-link {
   font-size: 1.5em;
   font-weight: 200;
 }
 
-#main-navbar .nav-link {
+#mainNavbar .nav-link {
   color: white;
 }
 
-#main-navbar .navbar-brand {
+#mainNavbar .navbar-brand {
   color: rgb(223, 46, 108);
 }
 
-#main-navbar .nav-link:hover {
+#mainNavbar .nav-link:hover {
   color: rgb(223, 46, 108);
 }
 
@@ -29,14 +29,27 @@ h2 {
 
 h3 {
   font-weight: 200;
-  font-size: 2.25rem;
+  font-size: 2.2rem;
 }
 
 p {
   color: rgb(237, 125, 164);
   font-weight: 200;
-  font-size: 1.2rem;
-  line-height: 2;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+section {
+  color: rgb(223, 46, 108);
+}
+
+#headingGroup span {
+  color: rgb(223, 46, 108);
+  font-weight: 500;
+}
+
+.icon {
+  width: 90px;
 }
 
 @media (max-width: 1350px) {
@@ -51,21 +64,18 @@ p {
   }
 }
 
+@media (max-width: 1060px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 915px) {
   h2 {
     font-size: 2rem;
   }
-  #main-navbar .navbar-brand,
-  #main-navbar .nav-link {
+  #mainNavbar .navbar-brand,
+  #mainNavbar .nav-link {
     font-size: 1.4em;
   }
-}
-
-section {
-  color: rgb(223, 46, 108);
-}
-
-#headingGroup span {
-  color: rgb(223, 46, 108);
-  font-weight: 500;
 }
